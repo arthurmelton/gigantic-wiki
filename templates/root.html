@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="{% if section.description %}{{ section.description }}{% else %}{{ page.description }}{% endif %}">
+        <title>{% if section.title %}{{ section.title }}{% else %}{{ page.title }}{% endif %}</title>
+        <link rel="stylesheet" href="{{ get_url(path="site.css") }}"/>
+        <link rel="icon" href="{{ get_url(path="favicon.ico") }}">
+    </head>
+    <body>
+        <div id="left_bar">
+            <img id="bar_logo" src="{{ get_url(path="logo.png") }}" alt="Gigantic Logo" />
+            <div class="search-container">
+                <input id="search" type="search" placeholder="🔎 Search the docs">
+
+                <div class="search-results">
+                    <div class="search-results__items"></div>
+                </div>
+            </div>
+            <ul id="bar_list">
+              <li class="bar_item_li"><a class="bar_item" href="{{ config.base_url }}">Main Page</a></li>
+                <li class="bar_item_li"><a class="bar_item" href="/Heroes">Heroes</a></li>
+                <li class="bar_item_li"><a class="bar_item" href="/Guides">Guides</a></li>
+                <li class="bar_item_li"><a class="bar_item" href="/Mechanics">Mechanics</a></li>
+                <li class="bar_item_li"><a class="bar_item" href="/Guardians">Guardians</a></li>
+                <li class="bar_item_li"><a class="bar_item" href="/Creatures">Creatures</a></li>
+                <li class="bar_item_li"><a class="bar_item" href="/Maps">Maps</a></li>
+                <li class="bar_item_li"><a class="bar_item" href="/Challenges">Challenges</a></li>
+                <li class="bar_item_li"><a class="bar_item" href="/Career">Career</a></li>
+                <li class="bar_item_li"><a class="bar_item" href="/Skins">Skins</a></li>
+                <li class="bar_item_li"><a class="bar_item" href="/Other">Other features</a></li>
+                <li class="bar_item_li"><a class="bar_item" href="/Updates">Updates</a></li>
+                <li class="bar_item_li"><a class="bar_item" href="/Lore">Lore</a></li>
+                <li class="bar_item_li"><a class="bar_item" href="/Creators">Creators</a></li>
+                <li class="bar_item_li"><a class="bar_item" href="/Community">Community</a></li>
+            </ul>
+        </div>
+        <img id="background-img" src="/Canyon_FIN.png" alt="" />
+        <div id="content">
+          {% if section.path %}{% set path = section.path %}{% else %}{% set path = page.path %}{% endif %} 
+          {% block content %}{% if section.content %}{{ section.content | safe }}{% else %}{{ page.content | safe }}{% endif %}{% endblock content %}
+          <strong>
+              {% if page.path %}
+                <a id="edit_button" href="https://github.com/AMTitan/gigantic-wiki/edit/master/content{{ path | split(pat="/") | slice(end=-1) | join(sep="/") }}.md" target="_new">Edit</a>
+              {% else %}
+                <a id="edit_button" href="https://github.com/AMTitan/gigantic-wiki/edit/master/content{{ path }}_index.md" target="_new">Edit</a>
+              {% endif %}
+          </strong>
+        </div>
+        <script type="text/javascript" src="{{ get_url(path="elasticlunr.min.js") }}"></script>
+        <script type="text/javascript" src="{{ get_url(path="search_index.en.js") }}"></script>
+        <script type="text/javascript" src="{{ get_url(path="search.js") }}"></script>
+    </body>
+</html>
