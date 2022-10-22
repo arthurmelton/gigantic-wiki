@@ -100,11 +100,12 @@ a {
 }
 
 img {
+  max-width: 100%;
   vertical-align: middle;
 }
 
 .skin {
-  height: 250px;
+  max-height: 250px;
 }
 
 .card {
