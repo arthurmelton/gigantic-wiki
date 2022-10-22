@@ -4,8 +4,8 @@
         <meta charset="UTF-8">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="{% if section.description %}{{ section.description }}{% else %}{{ page.description }}{% endif %}">
-        <title>{% if section.title %}{{ section.title }}{% else %}{{ page.title }}{% endif %}</title>
+        <meta name="description" content="{% if section.description %}{{ section.description }}{% elif page.description %}{{ page.description }}{% else %}{% block description %}{{ config.description }}{% endblock description %}{% endif %}">
+        <title>{% if section.title %}{{ section.title }}{% elif page.title %}{{ page.title }}{% else %}{% block title %}{{ config.title }}{% endblock title %}{% endif %}</title>
         <link rel="stylesheet" href="{{ get_url(path="site.css") }}"/>
         <link rel="icon" href="{{ get_url(path="favicon.ico") }}">
     </head>
@@ -39,12 +39,12 @@
         </div>
         <img id="background-img" src="/Canyon_FIN.png" alt="" />
         <div id="content">
-          {% if section.path %}{% set path = section.path %}{% else %}{% set path = page.path %}{% endif %} 
-          {% block content %}{% if section.content %}{{ section.content | safe }}{% else %}{{ page.content | safe }}{% endif %}{% endblock content %}
+          {% if section.path %}{% set path = section.path %}{% elif page.path %}{% set path = page.path %}{% endif %} 
+          {% block content %}{% if section.content %}{{ section.content | safe }}{% elif page.content %}{{ page.content | safe }}{% else %}{% block content %}{{ config.content }}{% endblock content %}{% endif %}{% endblock content %}
           <strong>
               {% if page.path %}
                 <a id="edit_button" href="https://github.com/AMTitan/gigantic-wiki/edit/master/content{{ path | split(pat="/") | slice(end=-1) | join(sep="/") }}.md" target="_new">Edit</a>
-              {% else %}
+              {% elif section.path %}
                 <a id="edit_button" href="https://github.com/AMTitan/gigantic-wiki/edit/master/content{{ path }}_index.md" target="_new">Edit</a>
               {% endif %}
           </strong>

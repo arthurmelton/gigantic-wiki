@@ -1,0 +1,25 @@
+{% extends "root.html" %}
+
+{% block title %}404{% endblock title %}
+{% block description %}404{% endblock description %}
+
+{% block content %}
+  <center>
+    <h1>
+      404 Not Found
+    </h1>
+  <p id="text">
+  If you think this page should exist go to the <a ed="edit_button" href=`https://github.com/AMTitan/gigantic-wiki` target="_new">Github Page</a>.
+  </p>
+  </center>
+  <script>
+    function page() {
+      let path = window.location.pathname.split("/"); 
+      return `https://github.com/AMTitan/gigantic-wiki/new/master/content${path.slice(0,-1).join("/")}?filename=${path[path.length-1]}`
+    }
+    function section() {
+      return `https://github.com/AMTitan/gigantic-wiki/new/master/content${window.location.pathname}?filename=_index.md`
+    }
+    document.querySelector("#text").innerHTML = `If you think this page should exist click <a ed="edit_button" href="${section()}" target="_new">this</a> if the page should be a section (ex <a href="/Heroes" target="_new">/Heroes</a>), or click <a ed="edit_button" href="${page()}.md" target="_new">this</a> if it should be a page (ex <a href="/Heroes/imani" target="_new">/Heroes/imani</a>).`
+  </script>
+{% endblock content %}
