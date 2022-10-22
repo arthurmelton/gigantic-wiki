@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="404">
+        <title>404</title>
+        <link rel="stylesheet" href="https://gigantic.wiki/site.css"/>
+        <link rel="icon" href="https://gigantic.wiki/favicon.ico">
+    </head>
+    <body>
+        <div id="left_bar">
+            <img id="bar_logo" src="https://gigantic.wiki/logo.png" alt="Gigantic Logo" />
+            <div class="search-container">
+                <input id="search" type="search" placeholder="🔎 Search the docs">
+
+                <div class="search-results">
+                    <div class="search-results__items"></div>
+                </div>
+            </div>
+            <ul id="bar_list">
+              <li class="bar_item_li"><a class="bar_item" href="https:&#x2F;&#x2F;gigantic.wiki">Main Page</a></li>
+                <li class="bar_item_li"><a class="bar_item" href="/Heroes">Heroes</a></li>
+                <li class="bar_item_li"><a class="bar_item" href="/Guides">Guides</a></li>
+                <li class="bar_item_li"><a class="bar_item" href="/Mechanics">Mechanics</a></li>
+                <li class="bar_item_li"><a class="bar_item" href="/Guardians">Guardians</a></li>
+                <li class="bar_item_li"><a class="bar_item" href="/Creatures">Creatures</a></li>
+                <li class="bar_item_li"><a class="bar_item" href="/Maps">Maps</a></li>
+                <li class="bar_item_li"><a class="bar_item" href="/Challenges">Challenges</a></li>
+                <li class="bar_item_li"><a class="bar_item" href="/Career">Career</a></li>
+                <li class="bar_item_li"><a class="bar_item" href="/Skins">Skins</a></li>
+                <li class="bar_item_li"><a class="bar_item" href="/Other">Other features</a></li>
+                <li class="bar_item_li"><a class="bar_item" href="/Updates">Updates</a></li>
+                <li class="bar_item_li"><a class="bar_item" href="/Lore">Lore</a></li>
+                <li class="bar_item_li"><a class="bar_item" href="/Creators">Creators</a></li>
+                <li class="bar_item_li"><a class="bar_item" href="/Community">Community</a></li>
+            </ul>
+        </div>
+        <img id="background-img" src="/Canyon_FIN.png" alt="" />
+        <div id="content">
+           
+          
+  <center>
+    <h1>
+      404 Not Found
+    </h1>
+  <p id="text">
+  If you think this page should exist go to the <a ed="edit_button" href=`https://github.com/AMTitan/gigantic-wiki` target="_new">Github Page</a>.
+  </p>
+  </center>
+  <script>
+    function page() {
+      let path = window.location.pathname.split("/"); 
+      return `https://github.com/AMTitan/gigantic-wiki/new/master/content${path.slice(0,-1).join("/")}?filename=${path[path.length-1]}`
+    }
+    function section() {
+      return `https://github.com/AMTitan/gigantic-wiki/new/master/content${window.location.pathname}?filename=_index.md`
+    }
+    document.querySelector("#text").innerHTML = `If you think this page should exist click <a ed="edit_button" href="${section()}" target="_new">this</a> if the page should be a section (ex <a href="/Heroes" target="_new">/Heroes</a>), or click <a ed="edit_button" href="${page()}.md" target="_new">this</a> if it should be a page (ex <a href="/Heroes/imani" target="_new">/Heroes/imani</a>).`
+  </script>
+
+          <strong>
+              
+          </strong>
+        </div>
+        <script type="text/javascript" src="https://gigantic.wiki/elasticlunr.min.js"></script>
+        <script type="text/javascript" src="https://gigantic.wiki/search_index.en.js"></script>
+        <script type="text/javascript" src="https://gigantic.wiki/search.js"></script>
+    </body>
+</html>
