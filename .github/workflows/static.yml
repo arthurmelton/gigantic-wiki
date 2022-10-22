@@ -34,6 +34,7 @@ jobs:
         uses: shalzz/zola-deploy-action@v0.16.1
         env:
           BUILD_DIR: public
+          BUILD_ONLY: true
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Upload artifact
