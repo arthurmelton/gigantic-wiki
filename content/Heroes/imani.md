@@ -218,9 +218,12 @@ Imani is easily one of the most powerful heroes in Gigantic, but she requires a 
 
 <img src="/Heroes/imani/art.png" alt="Hero art" class="right_img">
 
-| Race  | Gender | Design                   | Voice        |
-| ----- | ------ | ------------------------ | ------------ |
-| Human | Female | Vinod Rams, Ted Lockwood | Julia Benson |
+|            |                          |
+| ---------- | ------------------------ |
+| **Race**   | Human                    |
+| **Gender** | Female                   |
+| **Design** | Vinod Rams, Ted Lockwood |
+| **Voice**  | Julia Benson             |
 
 <div style="clear: both"></div>
 
