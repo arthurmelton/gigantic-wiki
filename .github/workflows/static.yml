@@ -30,6 +30,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - name: Build only 
+          uses: shalzz/zola-deploy-action@v0.16.1
+          env:
+            BUILD_DIR: public
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Upload artifact
