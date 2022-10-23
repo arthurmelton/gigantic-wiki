@@ -52,7 +52,7 @@ Even among the renowned Tahiri mercenaries, Imani is famed for uncommon skill an
 
 | | |
 |-:|:-|
-|OFFENCE|<div class="skill_blank"><div class="skill_offence" style="width: 50%"></div></div>|
+|OFFENCE|<div class="skill_blank"><div class="skill_offence" style="width: 100%"></div></div>|
 |DEFENSE|<div class="skill_blank"><div class="skill_defense" style="width: 20%"></div></div>|
 |MOBILITY|<div class="skill_blank"><div class="skill_mobility" style="width: 30%"></div></div>|
 |UTILITY|<div class="skill_blank"><div class="skill_utility" style="width: 60%"></div></div>|
