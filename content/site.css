@@ -34,16 +34,12 @@ body {
 }
 
 .bar_item:visited {
-  color: #FAFAFA;
-}
-
-.bar_item {
-  color: #FFFFFF;
-  text-decoration: none;
+  color: rgb(76.5, 132.72, 187.5);
 }
 
 body {
   background-color: #093340;
+  line-height: 1.6;
 }
 
 #background-img {
@@ -58,6 +54,7 @@ body {
 
 #edit_button {
   color: #FFF;
+  text-decoration: underline;
 }
 
 hr {
@@ -96,7 +93,17 @@ hr {
 }
 
 a {
-  color: white;
+  color: rgb(102, 177, 250);
+  text-decoration-color: initial;
+  text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: rgb(126, 114, 255);
 }
 
 img {
@@ -111,4 +118,103 @@ img {
 .card {
   height: 243px;
   margin-top: 0px;
+}
+
+@font-face {
+    font-family: troika;
+    src: url("/troika.otf") format("opentype");
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-family: 'Linux Libertine','Georgia','Times',serif;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+#summary {
+    float: right;
+    border-color: #40606a;
+    padding: 0.2rem;
+    border-width: 1px;
+    border-style: solid;
+    max-width: calc(100% - 16px);
+    text-align: center;
+    margin-left: 8px;
+}
+
+#summary table {
+    text-align: left;
+    table-layout: fixed;
+    width: 100%;
+}
+
+tbody {
+    vertical-align: top;
+}
+
+.skill_blank {
+    background-color: #2f4653;
+    max-width: calc(100vw - 283px);
+    width: 400px;
+    height: 20px;
+    margin-left: 8px;
+}
+
+.skill_offence {
+    height: 100%;
+    background-color: #af4948;
+}
+
+.skill_defense {
+    height: 100%;
+    background-color: #8f65bf;
+}
+
+.skill_mobility {
+    height: 100%;
+    background-color: #378dab;
+}
+
+.skill_utility {
+    height: 100%;
+    background-color: #c8b653;
+}
+
+.upgrades table {
+    text-align: center;
+    width: 100%;
+    table-layout: fixed;
+} 
+
+.upgrades {
+    border: 1px solid #40606a;
+    max-width: 800px;
+}
+
+.upgrades_flex {
+    width: 100%;
+    border-bottom: 1px solid #40606a;
+    display: flex;
+    flex-direction: row;
+}
+
+.upgrades_flex table:nth-child(1) {
+    border-right: 1px solid #40606a;
+}
+
+.upgrades_flex table:nth-child(2) {
+    border-left: 1px solid #40606a;
+    margin-left: -1px;
+}
+
+.toc {
+    border: 1px solid #40606a;
+    display: table;
+    padding: 8px;
+}
+
+.toc h2 {
+    text-align: center;
 }

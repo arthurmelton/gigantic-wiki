@@ -6,11 +6,43 @@ description = "Imani"
 
 # Imani
 
-Imani is a playable Hero in Gigantic. She is a ranged hero that utilizes her giant crossbow to shoot and snipe her enemies. She was first announced at PAX 2014.
-
-![Imani](/Heroes/Imani.png)
+Imani is a playable Hero in Gigantic. She is a ranged hero that utilizes her giant crossbow to shoot and snipe her enemies. She was first announced at PAX 2014.  
 
 Even among the renowned Tahiri mercenaries, Imani is famed for uncommon skill and leadership.
+
+<div id="summary" style="width:300px">
+
+## Imani
+
+<img src="/Heroes/imani/art.png" alt="Hero art">
+
+|            |                          |
+| ---------- | ------------------------ |
+| **Race**   | Human                    |
+| **Gender** | Female                   |
+| **Design** | Vinod Rams, Ted Lockwood |
+| **Voice**  | Julia Benson             |
+
+</div>
+
+<div class="toc">
+
+## Contents
+1. [Hero](#hero)  
+    1.1. [Skills](#skills)  
+    1.2. [Abilities](#abilities)  
+    1.3. [Talents](#talents)  
+    1.4. [Strategy](#strategy)  
+    1.5. [Tips and Tricks](#tips-and-tricks)  
+2. [Lore](#lore)  
+    2.1. [Notes](#notes)  
+    2.2. [Hero Skins](#hero-skins)  
+    2.3. [Weapon Skins](#weapon-skins)  
+3. [Cards](#cards)  
+4. [Voice Lines](#voice-lines)  
+5. [Trivia](#trivia)  
+
+</div>
 
 # Hero
 
@@ -18,11 +50,13 @@ Even among the renowned Tahiri mercenaries, Imani is famed for uncommon skill an
 
 ---
 
-Attack: 100  
-Difficulty: 20  
-Utility: 60  
-Mobility: 30  
-Defence: 20
+| | |
+|-:|:-|
+|OFFENCE|<div class="skill_blank"><div class="skill_offence" style="width: 50%"></div></div>|
+|DEFENSE|<div class="skill_blank"><div class="skill_defense" style="width: 20%"></div></div>|
+|MOBILITY|<div class="skill_blank"><div class="skill_mobility" style="width: 30%"></div></div>|
+|UTILITY|<div class="skill_blank"><div class="skill_utility" style="width: 60%"></div></div>|
+|HERO TYPE|<b style="margin-left:8px;">SHOOTER</b>|
 
 ## Abilities
 
@@ -34,24 +68,36 @@ Defence: 20
 
 Burst of medium ranged shots.
 
-<div style="clear: both"></div>
+<div style="clear: left"></div>
 
 ![Cooldown](/img/cooldown.png) Baisic Attack | ![Damage](/img/damage.png) 126 | ![A Damage](/img/adamage.png) 111
 
 <details>
   <summary markdown="span">Upgrades</summary>
-    <ul>
-      <li>[L] Heavy Cable - Deal more damage. <i>(+10%)</i></li>
-      <ul>
-        <li>[LL] Quick Loader - Reload and fire again 20% faster.</li>
-        <li>[LR] Steel-Tipped Bolts - Shots pierce through enemies and build Focus faster.</li>
-      </ul>
-      <li>[R] Hit and Run - Each hit gives you a small speed boost. <i>(Maximum: +10%, 3s)</i></li>
-      <ul>
-        <li>[RL] In the Groove - Hits increase your movement speed even more. <i>(maximum +30%, 3s)</i></li>
-        <li>[RR] Stopping Power - With  SPECIAL AMMO, shots push enemies from close range.</li>
-      </ul>
-    </ul>
+
+<div class="upgrades">
+
+<div class="upgrades_flex">
+
+| | |
+|-|-|
+| **Quick Loader** | **Steel-Tipped Bolts** |
+| Reload and fire again 20% faster. | Shots pierce through enemies and build Focus faster. |
+
+| | |
+|-|-|
+| **In the Grove** | **Stopping Power** |
+| Hits increase your movement speed even more. *(maximum +30%, 3s)* | With  SPECIAL AMMO, shots push enemies from close range. |
+
+</div>
+
+| | |
+|-|-|
+| **Heavy Cable** | **Hit and Run** |
+| Deal more damage. *(+10%)* | Each hit gives you a small speed boost. *(Maximum: +10%, 3s)* |
+
+</div>
+
 </details>
 
 <img src="/Heroes/imani/2.png" alt="Autobolts" class="left_img">
@@ -60,24 +106,36 @@ Burst of medium ranged shots.
 
 Zoom in for deadly single shots. Wait for increased damage. Shots have 100% [crit](/Mechanics/crit) chance.
 
-<div style="clear: both"></div>
+<div style="clear: left"></div>
 
 ![Cooldown](/img/cooldown.png) 0s | ![Damage](/img/damage.png) 137/275 | ![A Damage](/img/adamage.png) 121/243
 
 <details>
   <summary markdown="span">Upgrades</summary>
-    <ul>
-    <li>[L] On The Mark - After a scoped 2x charged hit, damage bonus starts at 2x. <i>(can charge up to 3x)</i></li>
-    <ul>
-    <li>[LL] Vital Organs - Scoped shots have 50% armor penetration.</li>
-    <li>[LR] Dialed In - After a scoped 3x charged hit, damage bonus starts at 3x.</li>
-    </ul>
-    <li>[R] Snapshot - +50% damage for quick scoped shots. <i>(Scope does not zoom in as far)</i></li>
-    <ul>
-    <li>[RL] Combat Sniper - After a scoped shot, reload and fire 20% faster.\nIncreased movement speed while scoped.</li>
-    <li>[RR] Sniper Superiority - After a scoped shot using  SPECIAL AMMO, gain front deflection for 1s.</li>
-    </ul>
-    </ul>
+
+<div class="upgrades">
+
+<div class="upgrades_flex">
+
+| | |
+|-|-|
+| **Vital Organs** | **Dialed In** |
+| Scoped shots have 50% armor penetration. | After a scoped 3x charged hit, damage bonus starts at 3x. |
+
+| | |
+|-|-|
+| **Combat Sniper** | **Sniper Superiority** |
+| After a scoped shot, reload and fire 20% faster. Increased movement speed while scoped. | After a scoped shot using  SPECIAL AMMO, gain front deflection for 1s. |
+
+</div>
+
+| | |
+|-|-|
+| **On The Mark** | **Snapshot** |
+| After a scoped 2x charged hit, damage bonus starts at 2x. *(can charge up to 3x)* | +50% damage for quick scoped shots. *(Scope does not zoom in as far)* |
+
+</div>
+
 </details>
 
 <img src="/Heroes/imani/3.png" alt="Silent Scope" class="left_img">
@@ -86,24 +144,36 @@ Zoom in for deadly single shots. Wait for increased damage. Shots have 100% [cri
 
 Boom Bolts add 20% damage and apply burning to your next 3 **AUTOBOLT** attacks.
 
-<div style="clear: both"></div>
+<div style="clear: left"></div>
 
 ![Cooldown](/img/cooldown.png) 15s | ![Damage](/img/damage.png) 153 (zoom: 165 / 330) | ![A Damage](/img/adamage.png) 135 (zoom: 145 / 291)
 
 <details>
   <summary markdown="span">Upgrades</summary>
-    <ul>
-    <li>[L] Die in a Fire - Burning lasts twice as long. <i>(2s)</i></li>
-    <ul>
-    <li>[LL] Blast Radius - On hit, shots affect foes near your target. Gain Focus for each enemy hit.</li>
-    <li>[LR] All In - Get only one shot, but deals +60% damage and pushes enemies.</li>
-    </ul>
-    <li>[R] Frosted Tips - Your next 3 attacks inflict freeze <i>(2s)</i>.</li>
-    <ul>
-    <li>[RL] Chill to the Bone - Hitting a frozen foe inflicts deep freeze <i>(3s)</i>. Hitting a deep frozen foe inflicts full freeze <i>(3s of extreme slow)</i>.</li>
-    <li>[RR] Freeze Tag - Increases freeze duration by 1s. Enemies hit also freeze nearby.</li>
-    </ul>
-    </ul>
+
+<div class="upgrades">
+
+<div class="upgrades_flex">
+
+| | |
+|-|-|
+| **Blast Radius** | **All In** |
+| On hit, shots affect foes near your target. Gain Focus for each enemy hit. | Get only one shot, but deals +60% damage and pushes enemies. |
+
+| | |
+|-|-|
+| **Chill to the Bone** | **Freeze Tag** |
+| Hitting a frozen foe inflicts deep freeze *(3s)*. Hitting a deep frozen foe inflicts full freeze *(3s of extreme slow)*. | Increases freeze duration by 1s. Enemies hit also freeze nearby. |
+
+</div>
+
+| | |
+|-|-|
+| **Die in a Fire** | **Frosted Tips** |
+| Burning lasts twice as long. *(2s)* | Your next 3 attacks inflict freeze *(2s)*. |
+
+</div>
+
 </details>
 
 <img src="/Heroes/imani/4.png" alt="Special Ammo" class="left_img">
@@ -112,24 +182,36 @@ Boom Bolts add 20% damage and apply burning to your next 3 **AUTOBOLT** attacks.
 
 Lobbed projectile: Creates a cloud that hides allies and weakens enemies. (-25% damage, 2s)
 
-<div style="clear: both"></div>
+<div style="clear: left"></div>
 
 ![Cooldown](/img/cooldown.png) 13s | ![Damage](/img/damage.png) 21 | ![A Damage](/img/adamage.png) 18
 
 <details>
   <summary markdown="span">Upgrades</summary>
-    <ul>
-    <li>[L] Choking Gas - Enemies hit are dazed.</li>
-    <ul>
-    <li>[LL] Debilitating Haze - Weakness is even stronger. <i>(-50% damage, 2s)</i></li>
-    <li>[LR] Smoke Screen - Allies inside the cloud have 100% crit chance.</li>
-    </ul>
-    <li>[R] Vertical Evasion - JUMP,: While jumping, launch yourself through the air. <i>(+5s cooldown if you launch yourself.)</i></li>
-    <ul>
-    <li>[RL] Leave Your Problems Behind - JUMP,: Gain cleanse when launching through the air.</li>
-    <li>[RR] Adrenaline Rush - JUMP,: Launch farther and gain +50% move speed for 3s.</li>
-    </ul>
-    </ul>
+
+<div class="upgrades">
+
+<div class="upgrades_flex">
+
+| | |
+|-|-|
+| **Debilitating Haze** | **Smoke Screen** |
+| Weakness is even stronger. *(-50% damage, 2s)* | Allies inside the cloud have 100% crit chance. |
+
+| | |
+|-|-|
+| **Leave Your Problems Behind** | **Adrenaline Rush** |
+| JUMP,: Gain cleanse when launching through the air. | JUMP,: Launch farther and gain +50% move speed for 3s. |
+
+</div>
+
+| | |
+|-|-|
+| **Choking Gas** | **Vertical Evasion** |
+| Enemies hit are dazed. | JUMP,: While jumping, launch yourself through the air. *(+5s cooldown if you launch yourself.)* |
+
+</div>
+
 </details>
 
 <img src="/Heroes/imani/5.png" alt="Smoke Bomb" class="left_img">
@@ -138,24 +220,36 @@ Lobbed projectile: Creates a cloud that hides allies and weakens enemies. (-25% 
 
 Zoom and load 3 fully charged rounds. Press to fire. Focus Tiers: +30/40/50% damage per hit.
 
-<div style="clear: both"></div>
+<div style="clear: left"></div>
 
 ![Cooldown](/img/cooldown.png) [Focus](/Mechanics/focus) | ![Damage](/img/damage.png) First bolt: 459 | ![A Damage](/img/adamage.png) First bolt: 405
 
 <details>
   <summary markdown="span">Upgrades</summary>
-    <ul>
-    <li>[L] Battle Fury - Gain 10% Focus for each kill or death.</li>
-    <ul>
-    <li>[LL] Concentration - Gain Focus 20% faster Focus.</li>
-    <li>[LR] Shredder - After hitting with your FOCUS, basic attacks have 30% armor penetration. <i>(Lasts until you die)</i></li>
-    </ul>
-    <li>[R] Acrobatics - Dodging costs 20% less stamina.</li>
-    <ul>
-    <li>[RL] Fringe Benefits - +10 armor when you are hit from long or medium range.</li>
-    <li>[RR] Tactical Awareness - +10 back damage reduction. +10% damage from behind.</li>
-    </ul>
-    </ul>
+
+<div class="upgrades">
+
+<div class="upgrades_flex">
+
+| | |
+|-|-|
+| **Concentration** | **Shredder** |
+| Gain Focus 20% faster Focus. | After hitting with your FOCUS, basic attacks have 30% armor penetration. *(Lasts until you die)* |
+
+| | |
+|-|-|
+| **Fringe Benefits** | **Tactical Awarness** |
+| +10 armor when you are hit from long or medium range. | +10 back damage reduction. +10% damage from behind. |
+
+</div>
+
+| | |
+|-|-|
+| **Battle Fury** | **Acrobatics** |
+| Gain 10% Focus for each kill or death. | Dodging costs 20% less stamina. |
+
+</div>
+
 </details>
 
 ## Talents
@@ -169,7 +263,7 @@ Zoom and load 3 fully charged rounds. Press to fire. Focus Tiers: +30/40/50% dam
 **\[RMB/LT]: SILENT SCOPE** shots have no recoil.  
 **Clash:** Gain [Focus](/Mechanics/focus) boost for consecutive hits. (Maximum: 2x after 10 hits)
 
-<div style="clear: both"></div>
+<div style="clear: left"></div>
 
 <img src="/Heroes/imani/7.png" alt="Secret Stash" class="left_img">
 
@@ -178,7 +272,7 @@ Zoom and load 3 fully charged rounds. Press to fire. Focus Tiers: +30/40/50% dam
 **\[Q/LB]:** Use **SPECIAL AMMO** more often. (-2s cooldown)  
 **Clash:** Additional -2s cooldown.
 
-<div style="clear: both"></div>
+<div style="clear: left"></div>
 
 <img src="/Heroes/imani/8.png" alt="Fog of War" class="left_img">
 
@@ -187,7 +281,7 @@ Zoom and load 3 fully charged rounds. Press to fire. Focus Tiers: +30/40/50% dam
 **\[E/RB]: SMOKE BOMB** stealth is increased to 2s.  
 **Clash:** Gain 50% <a href="/Mechanics/damage-resistance">damage resistance</a> from stealth.
 
-<div style="clear: both"></div>
+<div style="clear: left"></div>
 
 ## Strategy
 
@@ -213,19 +307,6 @@ Imani is easily one of the most powerful heroes in Gigantic, but she requires a 
   - [Jump](/Mechanics/jump) before using the upgraded Smoke Bomb for better survivability.
 
 # Lore
-
-## Info
-
-<img src="/Heroes/imani/art.png" alt="Hero art" class="right_img">
-
-|            |                          |
-| ---------- | ------------------------ |
-| **Race**   | Human                    |
-| **Gender** | Female                   |
-| **Design** | Vinod Rams, Ted Lockwood |
-| **Voice**  | Julia Benson             |
-
-<div style="clear: both"></div>
 
 ## Notes
 
@@ -256,7 +337,7 @@ Default
 
 _There was never any doubt. Imani was the one calling the shots._
 
-<div style="clear: both"></div>
+<div style="clear: left"></div>
 
 <img src="/Heroes/imani/Skin_Light_Touch.png" alt="Light Touch" class="left_img skin">
 
@@ -268,7 +349,7 @@ Common - Color
 
 _Serving alongside the proud knights of Karakesh required both diplomatic and military skill._
 
-<div style="clear: both"></div>
+<div style="clear: left"></div>
 
 <img src="/Heroes/imani/Skin_Dark_Tidings.png" alt="Dark Tidings" class="left_img skin">
 
@@ -280,7 +361,7 @@ Common - Color
 
 _Her years as a mercenary Captain earned Imani many friends. And enemies._
 
-<div style="clear: both"></div>
+<div style="clear: left"></div>
 
 <img src="/Heroes/imani/Skin_Forest_Shadow.png" alt="Forest Shadow" class="left_img skin">
 
@@ -292,7 +373,7 @@ Common - Color
 
 _Her enemies couldn't see the sniper for the trees._
 
-<div style="clear: both"></div>
+<div style="clear: left"></div>
 
 ---
 
@@ -307,7 +388,7 @@ PRESTIGE – Color / Material
 _"Only through discipline do we live up to the ideals of the Eternals.”  
 – Imani_
 
-<div style="clear: both"></div>
+<div style="clear: left"></div>
 
 ---
 
@@ -321,7 +402,7 @@ RARE – Model
 
 _If [Tesserus](/Other/tesserus) had hired her instead, they might still be mining the Ghost Reef._
 
-<div style="clear: both"></div>
+<div style="clear: left"></div>
 
 <img src="/Heroes/imani/Skin_The_Island_Campaign.png" alt="The Island Campaign" class="left_img skin">
 
@@ -333,7 +414,7 @@ RARE – Model
 
 _The barren, black sand beaches of the volcanic isles were their most hospitable feature._
 
-<div style="clear: both"></div>
+<div style="clear: left"></div>
 
 <img src="/Heroes/imani/Skin_The_Veldt_Campaign.png" alt="The Veldt Campaign" class="left_img skin">
 
@@ -345,7 +426,7 @@ RARE – Model
 
 _With tactical precision, Imani's crew turned aside the onslaught of the charging torg warband._
 
-<div style="clear: both"></div>
+<div style="clear: left"></div>
 
 <img src="/Heroes/imani/Skin_Operation_Redhawk.png" alt="Operation Redhawk" class="left_img skin">
 
@@ -357,7 +438,7 @@ RARE – Model
 
 _As her company's reputation grew, Imani's services were sought everywhere in the world._
 
-<div style="clear: both"></div>
+<div style="clear: left"></div>
 
 <img src="/Heroes/imani/Skin_Operation_Goldhawk.png" alt="Operation Goldhawk" class="left_img skin">
 
@@ -369,7 +450,7 @@ RARE – Model
 
 _Espionage called for a smaller crew and different tactics. Precision was the order of the day._
 
-<div style="clear: both"></div>
+<div style="clear: left"></div>
 
 <img src="/Heroes/imani/Skin_Operation_Ashhawk.png" alt="Operation Ashhawk" class="left_img skin">
 
@@ -381,7 +462,7 @@ RARE – Model
 
 _There was no turning back once Zagon's creation had been unleashed._
 
-<div style="clear: both"></div>
+<div style="clear: left"></div>
 
 ## Weapon Skins
 
@@ -398,7 +479,7 @@ Reach [Hero Rank](/Career/hero-rank) 10 to unlock
 
 _The gifts of the Eternals came from the City of Gods itself. Only the worthy could wield them._
 
-<div style="clear: both"></div>
+<div style="clear: left"></div>
 
 ---
 
@@ -412,7 +493,7 @@ LEGENDARY – Model / Ambient FX
 
 _Imani had encountered many priests of Aurion, but these clerics were different. Compassion was not their chief concern._
 
-<div style="clear: both"></div>
+<div style="clear: left"></div>
 
 # Cards
 
