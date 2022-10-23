@@ -38,6 +38,8 @@ Even among the renowned Tahiri mercenaries, Imani is famed for uncommon skill an
     2.1. [Notes](#notes)  
     2.2. [Voice Lines](#voice-lines)  
     2.3. [Trivia](#trivia)  
+3. [Skins](/Skins/imani)  
+4. [Fortune Cards](/Challenges/imani)
 
 </div>
 
