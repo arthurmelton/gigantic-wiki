@@ -36,11 +36,8 @@ Even among the renowned Tahiri mercenaries, Imani is famed for uncommon skill an
     1.5. [Tips and Tricks](#tips-and-tricks)  
 2. [Lore](#lore)  
     2.1. [Notes](#notes)  
-    2.2. [Hero Skins](#hero-skins)  
-    2.3. [Weapon Skins](#weapon-skins)  
-3. [Cards](#cards)  
-4. [Voice Lines](#voice-lines)  
-5. [Trivia](#trivia)  
+    2.2. [Voice Lines](#voice-lines)  
+    2.3. [Trivia](#trivia)  
 
 </div>
 
@@ -98,6 +95,13 @@ Burst of medium ranged shots.
 
 </div>
 
+#### Usefull Information
+
+- Upgrades to these do not effecet **[RMB/LT] SILENT SCOPE**.
+- If only one of your shots hits a enemie they get the effect from **[Q/LB] SPECIAL AMMO** *(helpfull with frosted tips)*.
+- Knockback is 400 [units](/Other/units).
+- Close range is concedered 200 [units](/Other/units).
+
 </details>
 
 <img src="/Heroes/imani/2.png" alt="Autobolts" class="left_img">
@@ -135,6 +139,10 @@ Zoom in for deadly single shots. Wait for increased damage. Shots have 100% [cri
 | After a scoped 2x charged hit, damage bonus starts at 2x. *(can charge up to 3x)* | +50% damage for quick scoped shots. *(Scope does not zoom in as far)* |
 
 </div>
+
+#### Usefull Information
+
+- Quick Scope is counted as a shot that does not reach 2x damage bonus. This also means that you do not need to unscope to get a "quickscope".
 
 </details>
 
@@ -174,6 +182,11 @@ Boom Bolts add 20% damage and apply burning to your next 3 **AUTOBOLT** attacks.
 
 </div>
 
+#### Usefull Information
+
+- While the ability is on you can press it again to animation cancle.
+- **Bland Radius** and **Freeze Tag** radius is 300 [units](/Other/units).
+
 </details>
 
 <img src="/Heroes/imani/4.png" alt="Special Ammo" class="left_img">
@@ -212,6 +225,10 @@ Lobbed projectile: Creates a cloud that hides allies and weakens enemies. (-25% 
 
 </div>
 
+#### Usefull Information
+
+- Lasts 5 secs
+
 </details>
 
 <img src="/Heroes/imani/5.png" alt="Smoke Bomb" class="left_img">
@@ -249,6 +266,12 @@ Zoom and load 3 fully charged rounds. Press to fire. Focus Tiers: +30/40/50% dam
 | Gain 10% Focus for each kill or death. | Dodging costs 20% less stamina. |
 
 </div>
+
+#### Usefull Information
+
+- Pierces through enemies.
+- Lasts up to 6 secs.
+- Can shoot at a max of 1 shot per sec.
 
 </details>
 
@@ -324,273 +347,6 @@ Imani is easily one of the most powerful heroes in Gigantic, but she requires a 
   - The captain's calm leadership taught Charnok to focus in battle. He would always respect Imani for that.
 - The Ruffian V:
   - “He's effective. Too effective.” – Captain Imani
-
-## Hero Skins
-
-<img src="/Heroes/imani/Skin_The_Captain.png" alt="The Captain" class="left_img skin">
-
-### The Captain
-
-Common - Base hero model
-
-Default
-
-_There was never any doubt. Imani was the one calling the shots._
-
-<div style="clear: left"></div>
-
-<img src="/Heroes/imani/Skin_Light_Touch.png" alt="Light Touch" class="left_img skin">
-
-### Light Touch
-
-Common - Color
-
-![Crowns](/img/crowns.png) 600 / ![Rubies](/img/rubies.png) 20
-
-_Serving alongside the proud knights of Karakesh required both diplomatic and military skill._
-
-<div style="clear: left"></div>
-
-<img src="/Heroes/imani/Skin_Dark_Tidings.png" alt="Dark Tidings" class="left_img skin">
-
-### Dark Tidings
-
-Common - Color
-
-![Crowns](/img/crowns.png) 600 / ![Rubies](/img/rubies.png) 20
-
-_Her years as a mercenary Captain earned Imani many friends. And enemies._
-
-<div style="clear: left"></div>
-
-<img src="/Heroes/imani/Skin_Forest_Shadow.png" alt="Forest Shadow" class="left_img skin">
-
-### Forest Shadow
-
-Common - Color
-
-[Razer](http://en.wikipedia.org/wiki/Razer_Inc.) giveaway
-
-_Her enemies couldn't see the sniper for the trees._
-
-<div style="clear: left"></div>
-
----
-
-<img src="/Heroes/imani/Skin_Eternal_Master.png" alt="Eternal Master" class="left_img skin">
-
-### Eternal Master
-
-PRESTIGE – Color / Material
-
-![Crowns](/img/crowns.png) 300 / ![Rubies](/img/rubies.png) 10
-
-_"Only through discipline do we live up to the ideals of the Eternals.”  
-– Imani_
-
-<div style="clear: left"></div>
-
----
-
-<img src="/Heroes/imani/Skin_The_Desert_Compaign.png" alt="The Desert Compaign" class="left_img skin">
-
-### The Desert Compaign
-
-RARE – Model
-
-![Crowns](/img/crowns.png) 3,000 / ![Rubies](/img/rubies.png) 100
-
-_If [Tesserus](/Other/tesserus) had hired her instead, they might still be mining the Ghost Reef._
-
-<div style="clear: left"></div>
-
-<img src="/Heroes/imani/Skin_The_Island_Campaign.png" alt="The Island Campaign" class="left_img skin">
-
-### The Island Campaign
-
-RARE – Model
-
-![Crowns](/img/crowns.png) 3,000 / ![Rubies](/img/rubies.png) 100
-
-_The barren, black sand beaches of the volcanic isles were their most hospitable feature._
-
-<div style="clear: left"></div>
-
-<img src="/Heroes/imani/Skin_The_Veldt_Campaign.png" alt="The Veldt Campaign" class="left_img skin">
-
-### The Veldt Campaign
-
-RARE – Model
-
-![Crowns](/img/crowns.png) 3,000 / ![Rubies](/img/rubies.png) 100
-
-_With tactical precision, Imani's crew turned aside the onslaught of the charging torg warband._
-
-<div style="clear: left"></div>
-
-<img src="/Heroes/imani/Skin_Operation_Redhawk.png" alt="Operation Redhawk" class="left_img skin">
-
-### Operation Redhawk
-
-RARE – Model
-
-![Crowns](/img/crowns.png) 3,000 / ![Rubies](/img/rubies.png) 100
-
-_As her company's reputation grew, Imani's services were sought everywhere in the world._
-
-<div style="clear: left"></div>
-
-<img src="/Heroes/imani/Skin_Operation_Goldhawk.png" alt="Operation Goldhawk" class="left_img skin">
-
-### Operation Goldhawk
-
-RARE – Model
-
-![Crowns](/img/crowns.png) 3,000 / ![Rubies](/img/rubies.png) 100
-
-_Espionage called for a smaller crew and different tactics. Precision was the order of the day._
-
-<div style="clear: left"></div>
-
-<img src="/Heroes/imani/Skin_Operation_Ashhawk.png" alt="Operation Ashhawk" class="left_img skin">
-
-### Operation Ashhawk
-
-RARE – Model
-
-![Crowns](/img/crowns.png) 3,000 / ![Rubies](/img/rubies.png) 100
-
-_There was no turning back once Zagon's creation had been unleashed._
-
-<div style="clear: left"></div>
-
-## Weapon Skins
-
----
-
-<img src="/Heroes/imani/Skin_Eternal_Light.png" alt="Eternal Light" class="left_img skin">
-
-### Eternal Light
-
-PRESTIGE – Model / Material / Skill FX
-
-Reach [Hero Rank](/Career/hero-rank) 10 to unlock
-![Crowns](/img/crowns.png) 300 / ![Rubies](/img/rubies.png) 10
-
-_The gifts of the Eternals came from the City of Gods itself. Only the worthy could wield them._
-
-<div style="clear: left"></div>
-
----
-
-<img src="/Heroes/imani/Skin_Blessing_of_Aurion.png" alt="Blessing of Aurion" class="left_img skin">
-
-### Blessing of Aurion
-
-LEGENDARY – Model / Ambient FX
-
-![Crowns](/img/crowns.png) 1,500 / ![Rubies](/img/rubies.png) 75
-
-_Imani had encountered many priests of Aurion, but these clerics were different. Compassion was not their chief concern._
-
-<div style="clear: left"></div>
-
-# Cards
-
----
-
-<img src="/Heroes/imani/THE_CAPTAIN_I_legendary.png" alt="The Captain 1 Legendary" class="right_img card">
-<img src="/Heroes/imani/THE_CAPTAIN_I_rare.png" alt="The Captain 1 Rare" class="right_img card">
-<img src="/Heroes/imani/THE_CAPTAIN_I_common.png" alt="The Captain 1 Common" class="right_img card">
-
-## THE CAPTAIN I
-
-Victory
-
-- Common – Win a match as Imani.
-  - “Victory is a matter of tactics, not simply prowess. Stay together and work as a team.” – Captain Imani
-- Rare – Win 3 matches as Imani.
-  - “Do not rest on your laurels. There is always a next step to be taken.” – Captain Imani
-- Legendary – Win 5 matches as Imani.
-  - “Even in victory, be watchful. Your enemy may be waiting for a lapse in vigilance to turn the tides.” – Captain Imani
-
----
-
-## The CAPTAIN II
-
-BADGES
-
-- Common – Earn 25 badges as Imani.
-  - Captain is the highest rank the Tahiri are allowed. No force larger than a company could be fielded.
-- Rare – Earn 50 badges as Imani.
-  - An unequal alliance is an unstable one.
-- Legendary – Earn 75 badges as Imani.
-  - “Bide your time, and wait. But do not forget.” – Imani
-
----
-
-## THE CAPTAIN III
-
-EXPERIENCE
-
-- Common – Earn 30,000 match experience as Imani.
-  - Imani was too young to have fought against the knights of Karakesh. Instead she'd served under their command many times.
-- Rare – Earn 60,000 match experience as Imani.
-  - Her sister left under Amadi’s Banner, promising victory. A week later, Karak diplomats paraded through the capitol.
-- Legendary – Earn 90,000 match experience as Imani.
-  - Those too proud to accept the price of peace were exiled.
-
----
-
-## THE CAPTAIN IV
-
-KILLS
-
-- Common – Kill 20 heroes as Imani.
-  - All Tahiri learn to shoot at an early age. Some learn better than others.
-- Rare – Kill 40 heroes as Imani.
-  - When her compulsory service finally ended, Imani left the Karak military and never looked back.
-- Legendary – Kill 60 heroes as Imani.
-  - Some of her warband followed her into mercenary life. The rest remained with Karakesh.
-
----
-
-## THE CAPTAIN V
-
-RELENTLESS
-
-- Common – Earn 3 Killing Spree! badges as Imani.
-  - The goblins came in hordes. Wave after wave. Imani could not afford to miss or to hesitate.
-- Rare – Earn 6 Killing Spree! badges as Imani.
-  - Imani preferred to be patient, waiting hidden for the perfect shot on the perfect target.
-- Legendary – Earn 9 Killing Spree! badges as Imani.
-  - “A sniper rifle at close range is not ideal. But that doesn't mean you cannot make it work.” – Captain Imani
-
----
-
-## THE CAPTAIN VI
-
-SLAYER
-
-- Common – Deal 4,000 damage to enemy guardians as Imani.
-  - “Choosing your target wisely can be as important as hitting it reliably.” - Captain Imani
-- Rare – Deal 8,000 damage to enemy guardians as Imani.
-  - The crack of Imani's rifle echoed through the chasm, and a stunned hush fell over the horde as the ogre warlord slumped to the ground.
-- Legendary – Deal 12,000 damage to enemy guardians as Imani.
-  - “Without their leader, they fell into chaos. I hope that were I to fall, you all would do better than that.” – Captain Imani
-
----
-
-## THE CAPTAIN VIY
-
-Victory
-
-- Common – Win a match as Imani.
-  - “Victory is a matter of tactics, not simply prowess. Stay together and work as a team.” – Captain Imani
-- Rare – Win 3 matches as Imani.
-  - “Do not rest on your laurels. There is always a next step to be taken.” – Captain Imani
-- Legendary – Win 5 matches as Imani.
-  - “Even in victory, be watchful. Your enemy may be waiting for a lapse in vigilance to turn the tides.” – Captain Imani
 
 ## Voice Lines
 
